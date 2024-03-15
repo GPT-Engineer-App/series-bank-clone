@@ -12,6 +12,11 @@ const Index = () => {
             Banco de Séries
           </Heading>
         </Flex>
+        <Box>
+          <Link href="/series-tracker" mr={4}>
+            Minhas Séries
+          </Link>
+        </Box>
 
         <Box>
           <Input placeholder="Buscar série..." mr={4} borderRadius="full" bg="white" />
